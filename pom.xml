@@ -53,6 +53,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>exec-maven-plugin</artifactId>
@@ -101,7 +102,6 @@
                     <mainClass>com.github.truejacobg.agls.HelloApplication</mainClass>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
